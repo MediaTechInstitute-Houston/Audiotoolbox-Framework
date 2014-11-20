@@ -22,6 +22,13 @@
 		64785B3318E347A6000FE08A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64785B1218E347A6000FE08A /* UIKit.framework */; };
 		64785B3B18E347A6000FE08A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64785B3918E347A6000FE08A /* InfoPlist.strings */; };
 		64785B3D18E347A6000FE08A /* audiotoolboxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64785B3C18E347A6000FE08A /* audiotoolboxTests.m */; };
+		64785B4718E347D5000FE08A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64785B4618E347D5000FE08A /* AudioToolbox.framework */; };
+		64785B5018E349F1000FE08A /* Raising Roosters With Laying Hens.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 64785B4E18E349F1000FE08A /* Raising Roosters With Laying Hens.jpg */; };
+		64785B5118E349F1000FE08A /* pig_1571615c.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 64785B4F18E349F1000FE08A /* pig_1571615c.jpg */; };
+		64785B5318E34A17000FE08A /* Cow_female_black_white.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 64785B5218E34A17000FE08A /* Cow_female_black_white.jpg */; };
+		64785B5718E34A78000FE08A /* pigsound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 64785B5418E34A78000FE08A /* pigsound.mp3 */; };
+		64785B5818E34A78000FE08A /* roostersound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 64785B5518E34A78000FE08A /* roostersound.mp3 */; };
+		64785B5918E34A78000FE08A /* cowsound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 64785B5618E34A78000FE08A /* cowsound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +62,13 @@
 		64785B3818E347A6000FE08A /* audiotoolboxTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "audiotoolboxTests-Info.plist"; sourceTree = "<group>"; };
 		64785B3A18E347A6000FE08A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		64785B3C18E347A6000FE08A /* audiotoolboxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = audiotoolboxTests.m; sourceTree = "<group>"; };
+		64785B4618E347D5000FE08A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		64785B4E18E349F1000FE08A /* Raising Roosters With Laying Hens.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Raising Roosters With Laying Hens.jpg"; path = "../Raising Roosters With Laying Hens.jpg"; sourceTree = "<group>"; };
+		64785B4F18E349F1000FE08A /* pig_1571615c.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pig_1571615c.jpg; path = ../pig_1571615c.jpg; sourceTree = "<group>"; };
+		64785B5218E34A17000FE08A /* Cow_female_black_white.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Cow_female_black_white.jpg; path = ../Cow_female_black_white.jpg; sourceTree = "<group>"; };
+		64785B5418E34A78000FE08A /* pigsound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = pigsound.mp3; path = ../pigsound.mp3; sourceTree = "<group>"; };
+		64785B5518E34A78000FE08A /* roostersound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = roostersound.mp3; path = ../roostersound.mp3; sourceTree = "<group>"; };
+		64785B5618E34A78000FE08A /* cowsound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = cowsound.mp3; path = ../cowsound.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64785B4718E347D5000FE08A /* AudioToolbox.framework in Frameworks */,
 				64785B1118E347A6000FE08A /* CoreGraphics.framework in Frameworks */,
 				64785B1318E347A6000FE08A /* UIKit.framework in Frameworks */,
 				64785B0F18E347A6000FE08A /* Foundation.framework in Frameworks */,
@@ -103,6 +118,7 @@
 		64785B0D18E347A6000FE08A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				64785B4618E347D5000FE08A /* AudioToolbox.framework */,
 				64785B0E18E347A6000FE08A /* Foundation.framework */,
 				64785B1018E347A6000FE08A /* CoreGraphics.framework */,
 				64785B1218E347A6000FE08A /* UIKit.framework */,
@@ -129,6 +145,12 @@
 		64785B1518E347A6000FE08A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				64785B5418E34A78000FE08A /* pigsound.mp3 */,
+				64785B5518E34A78000FE08A /* roostersound.mp3 */,
+				64785B5618E34A78000FE08A /* cowsound.mp3 */,
+				64785B5218E34A17000FE08A /* Cow_female_black_white.jpg */,
+				64785B4E18E349F1000FE08A /* Raising Roosters With Laying Hens.jpg */,
+				64785B4F18E349F1000FE08A /* pig_1571615c.jpg */,
 				64785B1618E347A6000FE08A /* audiotoolbox-Info.plist */,
 				64785B1718E347A6000FE08A /* InfoPlist.strings */,
 				64785B1A18E347A6000FE08A /* main.m */,
@@ -231,10 +253,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64785B5918E34A78000FE08A /* cowsound.mp3 in Resources */,
+				64785B5018E349F1000FE08A /* Raising Roosters With Laying Hens.jpg in Resources */,
 				64785B2518E347A6000FE08A /* Main_iPad.storyboard in Resources */,
 				64785B2A18E347A6000FE08A /* Images.xcassets in Resources */,
 				64785B2218E347A6000FE08A /* Main_iPhone.storyboard in Resources */,
 				64785B1918E347A6000FE08A /* InfoPlist.strings in Resources */,
+				64785B5818E34A78000FE08A /* roostersound.mp3 in Resources */,
+				64785B5118E349F1000FE08A /* pig_1571615c.jpg in Resources */,
+				64785B5718E34A78000FE08A /* pigsound.mp3 in Resources */,
+				64785B5318E34A17000FE08A /* Cow_female_black_white.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

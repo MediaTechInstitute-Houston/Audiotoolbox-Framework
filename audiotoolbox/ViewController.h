@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import <AudioToolbox/AudioToolbox.h>
 @interface ViewController : UIViewController
+- (IBAction)cow:(id)sender;
+- (IBAction)rooster:(id)sender;
+- (IBAction)pig:(id)sender;
+
 
 @end
